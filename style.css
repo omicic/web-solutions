@@ -68,8 +68,9 @@ header {
     background: url(img/header.jpg);
     background-position: center;
     background-size: cover;
-
 }
+
+
 
 header article {
     width: 85%;
@@ -82,6 +83,20 @@ header article h1 {
     font-size: 4rem;
     text-shadow: 0 1px 0 var(--bela);
 
+}
+
+@media(max-width: 767px) {
+
+    header {
+        background-position: center left;
+        background-size: inherit;
+    }
+
+    header article h1 {
+        font-size: 3rem;
+        text-shadow: 0 1px 0 var(--bela);
+
+    }
 }
 
 header article p {
